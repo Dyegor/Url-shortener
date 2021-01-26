@@ -1,0 +1,42 @@
+body {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    background: #11698e;
+}
+
+.App {
+    padding: 1em;
+    height: 35vh;
+    border-radius: 10px;
+    background: #19456b;
+}
+
+.header {
+    color: #16c79a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 1rem 0;
+}
+
+form > * {
+    margin: .5rem 0;
+    padding: 1rem;
+}
+
+.existing-url{
+    color: #16c79a;
+    text-align: center;
+}
+
+a {
+    color: #16c79a;
+}
